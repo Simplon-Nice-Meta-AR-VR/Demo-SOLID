@@ -1,9 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Sword : Weapon, IRepair
+public class LegendarySword : Weapon
 {
-    [SerializeField] PlayerAnimations m_playerAnimations;
-
     public override void Attack()
     {
         // Catches enemy in front of the player and kill them
@@ -15,11 +15,5 @@ public class Sword : Weapon, IRepair
             }
 
         }
-        m_playerAnimations.Attack();
-    }
-
-    public void Repair()
-    {
-        // life += 50;
     }
 }
