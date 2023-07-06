@@ -11,7 +11,7 @@ public class Sword : Weapon, IRepair
         {
             if (hit.collider.CompareTag("Enemy"))
             {
-                hit.collider.GetComponent<Enemy>().TakeDamage(10f);
+                hit.collider.GetComponent<IDamageable>().TakeDamage(10f);
             }
 
         }

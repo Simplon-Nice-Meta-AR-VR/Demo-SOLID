@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 2222570242021463640}
   - component: {fileID: 4311260923215073905}
   - component: {fileID: 6901591571930364878}
+  - component: {fileID: 3058359755833768358}
   m_Layer: 0
   m_Name: Mechanics
   m_TagString: Untagged
@@ -447,6 +448,19 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &3058359755833768358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068218631476762792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b047830c9eafca09093430bc7d64e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_maxHealth: 10
 --- !u!1001 &2412391410928436322
 PrefabInstance:
   m_ObjectHideFlags: 0
